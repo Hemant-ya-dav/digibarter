@@ -1,4 +1,4 @@
-# Trader Among Us
+# Digi Barter Among Us
 
 A place to barter for items in your community. List the things you have, make
 a post asking for things you want, and make offers on other people's items.
@@ -32,9 +32,10 @@ Including:
 
 # Contributors
 
-- [Yuriy Yashkir](https://github.com/yashkir)
-- [Rohit Jacob](https://github.com/rohitgj169)
-- [Ben Shekhtman](https://github.com/uwitdat)
+- Riya Vishwakarma
+- Ujwal Yadav
+- Hemant Yadav
+- Bhimsen Tiwari
 
 # Roadmap
 
