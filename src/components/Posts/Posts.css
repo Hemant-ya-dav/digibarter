@@ -1,0 +1,169 @@
+.flex-div {
+  display: flex;
+  justify-content: center;
+}
+
+.post-container {
+  width: 95vw;
+  height: auto;
+  border: 1px solid rgba(128, 128, 128, 0.466);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.post-container > div:first-child {
+  margin-right: auto;
+  margin-left: 1rem;
+}
+.post-container > div:last-child {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+#post-img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  object-fit: cover;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-family: "Lilita One", cursive;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.post-title-pink {
+  font-size: 2rem;
+  font-family: "Oleo Script", cursive;
+  text-align: center;
+  text-transform: lowercase;
+  color: rgb(209, 145, 188);
+}
+
+.post-title-main {
+  font-size: 2.5rem;
+  font-family: "Lilita One", cursive;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.post-btn {
+  font-family: "Oleo Script", cursive;
+  font-size: 1.3rem;
+  color: white;
+  border: 1px solid transparent;
+  background-color: rgb(209, 145, 188);
+  height: auto;
+  width: 8rem;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: 300ms;
+}
+
+.post-btn:hover {
+  transform: scale(1.05);
+  background-color: rgb(228, 166, 207);
+  cursor: pointer;
+}
+
+.row {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.column-img {
+  padding-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.column-text {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  min-width: 12rem;
+  /* border: 1px solid blue; */
+}
+
+.column-btn {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  flex: 1;
+  /* border: 1px solid blue; */
+  padding-right: 0.5rem;
+}
+
+.flex-p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(139, 139, 139);
+  font-family: "Rubik", sans-serif;
+}
+
+hr {
+  width: 80%;
+  margin-left: 10%;
+  opacity: 0.4;
+}
+
+.flex-p-two {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(70, 70, 70);
+  font-family: "Oleo Script", cursive;
+}
+
+.post-error-message {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Oleo Script", cursive;
+}
+.post-confirmed {
+  font-size: 2.4rem;
+  font-family: "Lilita One", cursive;
+  color: rgb(18, 133, 56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: translateY(100%) rotate(-15deg);
+  z-index: 300;
+}
+
+.Posts-done {
+  opacity: 0.3;
+}
+
+.status-post {
+  color: rgba(155, 0, 0, 0.76);
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  font-family: "Oleo Script", cursive;
+  font-size: 1.4rem;
+}
